@@ -819,7 +819,7 @@ html body .content .content-wrapper {
 	display: none;
 }
 .horizontal-menu.navbar-floating:not(.blank-page) .app-content {
-	padding-top: 10px;
+	padding-top: 35px;
 }
 .pending-order-tabs .warehouse {} .pending-order-tabs .warehouse .nav-link.active {
 	background: linear-gradient(118deg, #000000, rgba(0, 0, 0, 0.65)) !important
@@ -1688,7 +1688,7 @@ print {
 	margin-top: 14px !important;
 }
 .log-header {
-	width: 150px;
+	width: 220px;
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
@@ -1724,9 +1724,12 @@ print {
     font-weight: 500;
 }
 .logo-imgs {
-    width: 175px;
+    width: 285px;
     margin-top: 6px;
     margin-bottom: 6px;
+}
+.mobile-nav-bar{
+  display:none;
 }
 .h2s {
     font-size: 22px;
