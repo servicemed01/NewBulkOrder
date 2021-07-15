@@ -3019,3 +3019,6 @@ print {
     color: red;
     font-size: 16px;
 }
+.item-img img {
+    height: 200px;
+}
