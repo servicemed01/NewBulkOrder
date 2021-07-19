@@ -1085,5 +1085,13 @@ body{
 .mobile-nav-bar{
  display:block;
 }
+.item-img img {
+    height: auto;
+    width: 100%;
+}
+.scroll-item .ecommerce-card .card-content .item-img {
+    padding-top: 0.5rem;
+    min-height: auto;
+}
 
 }
