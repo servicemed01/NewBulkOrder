@@ -3022,3 +3022,8 @@ print {
 .item-img img {
     height: 200px;
 }
+
+.text-white{color:#fff!important}
+.bb.pb-10 .ant-checkbox-wrapper{margin-right: 5px;}
+
+
