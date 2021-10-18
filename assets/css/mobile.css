@@ -164,9 +164,10 @@ a{
     top: 8px;
 }
 .mobile-nav-bar .anticon{
-	color: white;
-    font-size: 16px;
+	color: #0067de;
+    font-size: 19px;
     font-weight: 900;
+    margin-right: 8px;
 }
 .mobile-nav-bar h3{
 	display: inline-block;
@@ -1092,6 +1093,41 @@ body{
 .scroll-item .ecommerce-card .card-content .item-img {
     padding-top: 0.5rem;
     min-height: auto;
+}
+.top-bar .ant-drawer-wrapper-body .ant-drawer-header {
+    padding: 14px 10px;
+}
+.first_title {
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 15px !important;
+}
+.second_title{
+	font-weight: 500 !important;
+    font-size: 13px !important;
+    line-height: 15px !important;
+}
+.third_title{
+	font-weight: 500 !important;
+    font-size: 13px !important;
+    line-height: 15px !important;
+}
+.top-bar{
+    z-index: 10000000 !important;
+}
+.top-bar .ant-menu li {
+    border-bottom: 1px solid #eee;
+    padding-left: 0px !important;
+    margin: 0px 0px !important;
+}
+.top-bar .dropdown-item {
+    padding: 0px 10px !important;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #fff !important;
+}
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+    border-right: 0px solid #fd6500 !important;
 }
 
 }
