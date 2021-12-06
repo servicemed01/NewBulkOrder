@@ -2348,7 +2348,6 @@ print {
 .cart_list{
 	overflow-y: auto;
     margin-bottom: 0px;
-    max-height: 370px;
 }
 .cart_list::-webkit-scrollbar {
     width: 10px;
